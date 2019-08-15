@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">WMADAssignment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">WMAD Cinema App</string>
+    <string name="nav_header_subtitle">Not Logged In</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_admin">Admin Options</string>
+
+    <!--misc-->
+    <string name="storedPreferenceName">prefs</string>
+
+
+    <!--showings-->
+    <string name="showings_title">Showings</string>
+    <string name="showings_showID">Showing ID</string>
+    <string name="showings_showingFilm">Film</string>
+    <string name="showings_btnBookShowing">Book</string>
+    <string name="showings_btnDeleteShowing">Delete Showing</string>
+
+    <!--register-->
+    <string name="register_title">Register</string>
+    <string name="register_username">Username..</string>
+    <string name="register_password">Password..</string>
+    <string name="register_confpasswd">Confirm password..</string>
+    <string name="register_address1">Address Line 1..</string>
+    <string name="register_address2">Address Line 2..</string>
+    <string name="register_town">Town..</string>
+    <string name="register_county">County..</string>
+    <string name="register_postcode">Postcode..</string>
+    <string name="register_datebirth">00/00/0000</string>
+    <string name="register_btnRegister">Register</string>
+
+    <!--bookings-->
+    <string name="bookings_title">Bookings</string>
+
+    <!--login-->
+    <string name="login_title">Login</string>
+    <string name="login_txtUsername">Username...</string>
+    <string name="login_txtPassword">Password...</string>
+    <string name="login_btnLogin">Login</string>
+    <string name="login_def_user">No current user</string>
+
+
+    <!--Edit user-->
+    <string name="edituser_loggedInAs">Editing user: [none]</string>
+    <string name="edituser_address1">Address Line 1</string>
+    <string name="edituser_address2">Address Line 2</string>
+    <string name="edituser_town">Town</string>
+    <string name="edituser_county">County</string>
+    <string name="edituser_postcode">Postcode</string>
+
+    <string name="edituser_txtAddressLine1">New Address Line 1</string>
+    <string name="edituser_txtAddressLine2">New Address Line 2</string>
+    <string name="edituser_txtTown">New Town</string>
+    <string name="edituser_txtCounty">New County</string>
+    <string name="edituser_txtPostcode">New Postcode</string>
+    <string name="edituser_btnUpdateUser">Update user</string>
+
+    <!-- admin -->
+    <string-array name="admin_bbfcArray">
+        <item>12</item>
+        <item>15</item>
+        <item>18</item>
+        <item>PG</item>
+        <item>U</item>
+    </string-array>
+    <string name="admin_txtTimeslot">Timeslot..</string>
+    <string name="admin_title">Title..</string>
+    <string name="admin_runtime">Runtime (Minutes)..</string>
+    <string name="admin_stars">Leading Cast..</string>
+    <string name="admin_addFilm">Add Films</string>
+    <string name="admin_addShowing">Add Showings</string>
+    <string name="admin_btnaddShowing">Add Showing</string>
+    <string name="admin_btnaddFilm">Add Film</string>
+    <string name="admin_btnDeleteFilm">Delete Film</string>
+    <string name="admin_lblInfo">Select a film from the dropdown at the top to delete it.</string>
+    <string name="admin_btnElevateUser">Elevate user to admin.</string>
+</resources>

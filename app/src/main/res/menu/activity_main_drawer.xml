@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_showings"
+            android:icon="@drawable/ic_local_movies"
+            android:title="Showings" />
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Bookings" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_Login"
+                android:icon="@drawable/ic_account"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_Register"
+                android:icon="@drawable/ic_edit"
+                android:title="Register" />
+            <item
+                android:id="@+id/nav_edit"
+                android:icon="@drawable/ic_account"
+                android:title="Edit Account" />
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@drawable/ic_backspace"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_Exit"
+                android:icon="@drawable/ic_close"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
